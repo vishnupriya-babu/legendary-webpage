@@ -1,0 +1,224 @@
+*{
+    margin: 0 0 auto 0;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 21px;
+    background-color: white;
+    line-height: 150%;
+}
+header{
+    background-color: rgb(160, 193, 255);
+    background-image: linear-gradient(rgb(6, 63, 128)15%,rgb(7, 114, 163),rgb(160, 193, 255),rgb(255,255,255));
+    background-image: -moz-linear-gradient(rgb(6, 63, 128)15%,rgb(7, 114, 163),rgb(160, 193, 255),rgb(255,255,255)); 
+    background-image: -webkit-linear-gradient(rgb(6, 63, 128)15%,rgb(7, 114, 163),rgb(160, 193, 255),rgb(255,255,255));
+    background-image: -o-linear-gradient(rgb(6, 63, 128)15%,rgb(7, 114, 163),rgb(160, 193, 255),rgb(255,255,255));
+    background-image: url(https://static.photocdn.pt/images/articles/2020/09/08/Long_Exposure_Tutorial_Beach_Photography.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:left;
+    border: rgb(160, 193, 255) 0%; 
+    margin: 0%;
+    padding: 3% 0 1.5% 0;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    line-height: 18%;
+}
+.body{
+    display: inline-block;
+    margin-top: 15%;
+    margin-left: 7%;
+    margin-right: 7%;
+    padding:0%;
+}
+span{
+    display: inline-block;
+    padding-bottom: 1%;
+}
+h1{
+    color: rgb(0, 11, 61);
+    background-color: rgba(255,255,255,0.6);
+    border: transparent solid 15px;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    text-transform: uppercase;
+    padding: 1%;
+    font-size: 250%;
+}
+nav a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+}
+nav a:link{
+    font-style: italic;
+    font-weight: bold;
+    display: inline-block;
+    background-color: rgb(33, 56, 122);
+    border: 0.5px transparent;
+    border-radius: 15px;
+    text-decoration: none;
+    margin: 1%;
+    margin-top: 2%;
+    padding: 1%;
+    transition:background-color 0.5s ease-in 1s linear;
+    
+}
+nav a:hover{
+    background-color: rgb(181, 204, 238);
+    color: rgb(33, 56, 122);
+    font-weight: bolder;
+}
+a:active{
+    background-color: rgb(197, 209, 230);
+    color: rgb(35, 56, 114);
+}
+a:hover{
+    background-color: rgb(225, 231, 241);
+    color: rgb(33, 56, 122);
+    font-weight: bold;
+    text-decoration: solid;
+}
+a:focus{
+    background-color: rgb(197, 209, 230);
+    color: rgb(33, 56, 122);
+}
+h2{
+    /*color: rgb(0, 11, 61);*/
+    color: rgb(0 11 61);
+    text-transform: uppercase;
+    background-color: rgb(7, 114, 163);
+    background-image:linear-gradient(to right,rgb(82, 143, 255),rgb(114, 163, 253),rgb(182, 208, 255));
+    border: transparent 1px;
+    border-radius: 30px 20px;
+    padding: 1%;
+    margin-bottom: 4%;
+    box-shadow: rgb(0, 0, 0);
+}
+.big-part{
+    width: 26%;
+    display: block;
+    float:right;
+    /*background-image:linear-gradient(to right,white 99%,#acc9ff,rgba(20, 64, 158, 0.514));*/
+    overflow-y: auto; 
+    padding: 2% 2% 2% 2%; 
+    margin: 1%;
+    line-height: 140%;
+}
+.half{
+    padding: 3% 2% 2% 2%;
+    width: 64%;
+    float: left;
+    font-size: 23px;
+    line-height: 150%;
+    /*background-image:linear-gradient(to left,white 99.3%,#acc9ff,rgba(20, 64, 158, 0.514));*/
+    overflow-y: auto;
+
+}
+.whole{
+    clear: both;
+    padding: 0% 2% 2% 2%;
+}
+
+button{
+    color: white;
+    background-color: rgb(7, 114, 163);
+    text-align: center;
+}
+ol{
+    list-style-type:lower-roman;
+    padding: 2%;
+}
+img{
+    display:none;
+}
+footer{
+    margin: 1% 0 2% 0;
+    background-color: rgb(160, 193, 255);
+    text-align: center;  
+    border-bottom: rgb(160, 193, 255) 15%; 
+    clear: both;
+}
+figcaption{
+    display: none;
+}
+video{
+    display: none;
+}
+.image{
+    display: inline;
+    width: 88%;
+}
+p::first-letter{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 250%;
+    color:rgb(0, 11, 61);
+}
+.big-part p::first-letter{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 150%;
+    color:rgb(0, 11, 61);
+}
+#home{
+    position: absolute;
+    top: 30px;
+}
+#about{
+    position: absolute;
+    top: 40px;
+}
+#random{
+    position:absolute;
+    /*top: 500px;*/
+    top: 114%;
+}
+#randomer{
+    position: absolute;
+    /*top: 2060px;*/
+    top: 350%;
+}
+.part{
+    display: block;
+    float:left;
+    /*background-image:linear-gradient(to right,white 99%,#acc9ff,rgba(20, 64, 158, 0.514));*/
+    overflow-y: auto; 
+    padding: 3% 2% 2% 2%;
+}
+nav ul{
+    list-style:square;
+    padding: 2%;
+}
+/*nav ul{
+    list-style: none;
+}
+nav li{
+    list-style: none;
+    display: inline-block;
+    height: 50px;
+    width: 20%;
+    line-height: 50px;
+}
+nav li li{
+    border-right: none;
+}
+nav > ul > li{
+    text-align: center;
+}
+nav > ul > li >a{
+    padding-left: 0;
+}
+nav li ul{
+    position: absolute;
+    display: none;
+    width: inherit;
+}
+nav li:hover ul{
+    display: block;
+}
+nav li ul li{
+    display: block;
+}*/
