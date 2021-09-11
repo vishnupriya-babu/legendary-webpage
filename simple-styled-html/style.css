@@ -161,7 +161,7 @@ p::first-letter{
 .big-part p::first-letter{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 150%;
-    color:rgb(0, 11, 61);
+    color:rgb(0,0,0);
 }
 #home{
     position: absolute;
